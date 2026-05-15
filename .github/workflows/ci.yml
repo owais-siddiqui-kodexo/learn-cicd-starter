@@ -37,3 +37,9 @@ jobs:
 
       - name : "Formatting of the code"
         run : test -z $(go fmt ./...)
+
+      - name: Install staticcheck
+        run: go install honnef.co/go/tools/cmd/staticcheck@latest
+
+      - name : "Running Linter on the code"
+        run : staticcheck ./...
