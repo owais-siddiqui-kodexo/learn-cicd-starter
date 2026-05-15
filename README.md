@@ -1,5 +1,3 @@
-
-
 ![Tests](https://github.com/owais-siddiqui-kodexo/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)
 
 # learn-cicd-starter (Notely)
